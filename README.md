@@ -47,7 +47,7 @@ A full-stack web app for visualizing government employment scheme performance at
 ### 1. Clone the repository
 
 git clone https://github.com/Santa-Dev-Hub/MGNREGA-Dashboard.git
-cd MGNREGA-Dashboard
+
 
 ### 2. Setup Backend
 
