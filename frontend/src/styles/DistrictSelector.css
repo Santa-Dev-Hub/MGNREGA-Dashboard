@@ -1,0 +1,53 @@
+.district-selector {
+  width: 100%;
+}
+
+.search-input {
+  width: 100%;
+  padding: 15px 20px;
+  font-size: 1em;
+  margin-bottom: 30px;
+  border: 2px solid #bdc3c7;
+  border-radius: 8px;
+}
+
+.search-input:focus {
+  border-color: #667eea;
+  box-shadow: 0 0 0 4px rgba(102, 126, 234, 0.1);
+}
+
+.districts-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 15px;
+}
+
+.district-card {
+  background: #f0f2f5;
+  border: 2px solid transparent;
+  padding: 20px;
+  border-radius: 8px;
+  font-size: 0.95em;
+  color: #2c3e50;
+  transition: all 0.3s ease;
+  text-align: center;
+}
+
+.district-card:hover {
+  border-color: #667eea;
+  background: #e8ecf8;
+  transform: translateY(-4px);
+}
+
+.district-card.selected {
+  background: #667eea;
+  border-color: #667eea;
+  color: white;
+  font-weight: bold;
+}
+
+.no-results {
+  text-align: center;
+  color: #7f8c8d;
+  padding: 20px;
+}

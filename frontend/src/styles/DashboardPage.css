@@ -1,0 +1,85 @@
+.dashboard-page {
+  min-height: 100vh;
+  background-color: #f5f7fa;
+}
+
+.dashboard-header {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.dashboard-header h1 {
+  flex: 1;
+  text-align: center;
+  font-size: 1.8em;
+}
+
+.back-button, .lang-toggle {
+  background: rgba(255, 255, 255, 0.2);
+  color: white;
+  padding: 10px 20px;
+  border-radius: 20px;
+}
+
+.back-button:hover, .lang-toggle:hover {
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.dashboard-content {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+.dashboard-content section {
+  background: white;
+  padding: 30px;
+  margin-bottom: 30px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.dashboard-content h2 {
+  color: #2c3e50;
+  margin-bottom: 25px;
+  font-size: 1.3em;
+  border-bottom: 3px solid #667eea;
+  padding-bottom: 10px;
+}
+
+.insights-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.insight-card {
+  background: #f8f9fa;
+  padding: 20px;
+  border-radius: 8px;
+  border-left: 4px solid #3498db;
+}
+
+.insight-card h3 {
+  margin-bottom: 10px;
+  color: #2c3e50;
+}
+
+.insight-card p {
+  color: #7f8c8d;
+  font-size: 0.95em;
+  line-height: 1.5;
+}
+
+.dashboard-footer {
+  text-align: center;
+  padding: 20px;
+  color: #7f8c8d;
+  font-size: 0.9em;
+}
